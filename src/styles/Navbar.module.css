@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-item {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}

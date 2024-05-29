@@ -1,0 +1,1880 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Swedish Meatballs",
+      "description": "A classic Swedish dish made with ground beef, breadcrumbs, and spices, served with lingonberry sauce. Swedish meatballs are known for their savory flavor and tender texture. They are often enjoyed as a main dish and are a popular choice for festive occasions. The meatballs are typically served with lingonberry sauce, which adds a sweet and tangy element to the dish. Whether served with mashed potatoes, lingonberry jam, or as part of a smorgasbord, Swedish meatballs are a delicious and comforting meal option.",
+      "short_description": "Classic Swedish meatballs with lingonberry sauce.",
+      "slug": "swedish-meatballs",
+      "origin": "swedish",
+      "category": "main-dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 30,
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "bread crumbs",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "finely chopped"
+        },
+        {
+          "name": "milk",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "lingonberry sauce",
+          "amount": null,
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine ground beef, bread crumbs, chopped onion, milk, egg, salt, and black pepper. Mix well.",
+        "Shape the mixture into small meatballs.",
+        "In a frying pan, melt butter over medium heat. Add the meatballs and cook until browned and cooked through, about 10-15 minutes.",
+        "Serve the meatballs with lingonberry sauce."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cured Salmon",
+      "description": "A traditional Swedish dish made with fresh salmon, salt, sugar, and dill. Gravad lax, or cured salmon, is a popular appetizer in Sweden and is often enjoyed during festive occasions. The salmon is cured with a mixture of salt, sugar, and fresh dill, which infuses the fish with a delicate flavor and tender texture. Gravad lax is typically served thinly sliced and accompanied by mustard sauce, which adds a tangy and savory element to the dish. Whether enjoyed as part of a smorgasbord or as a light appetizer, cured salmon is a delicious and elegant dish that is sure to impress.",
+      "short_description": "A traditional Swedish dish made with fresh salmon, salt, sugar, and dill.",
+      "slug": "cured-salmon",
+      "origin": "swedish",
+      "category": "appetizer",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "salmon fillet",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "salt",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "sugar",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "fresh dill",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "mustard sauce",
+          "amount": null,
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine salt, sugar, chopped fresh dill, and black pepper.",
+        "Place the salmon fillet, skin-side down, on a large piece of plastic wrap.",
+        "Spread the dill mixture over the salmon.",
+        "Wrap the salmon tightly in the plastic wrap and place it in a shallow dish.",
+        "Place a weight on top of the salmon, such as a heavy plate or a few cans, and refrigerate for 2-3 days, turning the salmon every 12 hours.",
+        "Unwrap the salmon and scrape off the dill mixture. Slice the salmon thinly.",
+        "Serve the gravad lax with mustard sauce."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cinnamon Buns",
+      "description": "A classic Swedish pastry made with a yeast dough, cinnamon, sugar, and butter, topped with pearl sugar. Kanelbullar, or cinnamon buns, are a beloved treat in Sweden and are often enjoyed with a cup of coffee or tea. The dough is flavored with ground cinnamon and filled with a sweet cinnamon-sugar mixture, which gives the buns their signature flavor and aroma. Kanelbullar are typically topped with pearl sugar, which adds a crunchy and sweet element to the pastry. Whether enjoyed as a snack or as part of a fika, kanelbullar are a delicious and comforting treat that is sure to satisfy your sweet tooth.",
+      "short_description": "A classic Swedish pastry made with a yeast dough, cinnamon, sugar, and butter, topped with pearl sugar.",
+      "slug": "cinnamon-buns",
+      "origin": "swedish",
+      "category": "dessert",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 12,
+      "prep_time": 20,
+      "cook_time": 10,
+      "ingredients": [
+        {
+          "name": "active dry yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "name": "milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "sugar",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "amount": 75,
+          "unit": "g",
+          "preparation": "melted"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "ground cinnamon",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "brown sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "softened"
+        },
+        {
+          "name": "pearl sugar",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "for topping"
+        }
+      ],
+      "instructions": [
+        "In a small bowl, dissolve yeast in warm milk. Let stand for 5 minutes.",
+        "In a large bowl, combine sugar, melted butter, and egg. Mix well.",
+        "Add the yeast mixture to the sugar mixture and stir to combine.",
+        "Gradually add flour, stirring until a dough forms.",
+        "Turn the dough out onto a floured surface and knead until smooth and elastic, about 5 minutes.",
+        "Place the dough in a greased bowl, cover, and let rise in a warm place for 1 hour, or until doubled in size.",
+        "Preheat the oven to 200°C (400°F).",
+        "In a small bowl, combine ground cinnamon, brown sugar, and softened butter to make the filling.",
+        "Punch down the dough and roll it out into a large rectangle.",
+        "Spread the filling over the dough and roll it up tightly, starting from the long side.",
+        "Cut the dough into 12 equal pieces and place them on a greased baking sheet.",
+        "Cover and let rise for 30 minutes.",
+        "Sprinkle the kanelbullar with pearl sugar and bake for 10-12 minutes, or until golden brown."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Smörgåstårta",
+      "description": "A savory Swedish sandwich cake made with layers of white bread, smoked salmon, shrimp, and a creamy mayonnaise mixture. Smörgåstårta, or sandwich cake, is a popular dish in Sweden and is often enjoyed as part of a smorgasbord. The cake is made by layering slices of white bread with a creamy mayonnaise mixture, smoked salmon, shrimp, and a variety of other fillings. The cake is typically decorated with additional seafood, vegetables, and herbs, which add a colorful and festive touch to the dish. Whether served as an appetizer or as part of a celebratory meal, smörgåstårta is a delicious and impressive dish that is sure to be a hit with your guests.",
+      "short_description": "A savory Swedish sandwich cake made with layers of white bread, smoked salmon, shrimp, and a creamy mayonnaise mixture.",
+      "slug": "smorgastarta",
+      "origin": "swedish",
+      "category": "main-dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 8,
+      "prep_time": 30,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "white bread",
+          "amount": 10,
+          "unit": "slices"
+        },
+        {
+          "name": "smoked salmon",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "hard-boiled eggs",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "mayonnaise",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "sour cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "dill",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "shrimp",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "lemon",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "radishes",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "caviar",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine mayonnaise, sour cream, and chopped dill.",
+        "Place 4 slices of white bread on a serving platter. Spread a layer of the mayonnaise mixture over the bread.",
+        "Top with a layer of smoked salmon, followed by a layer of sliced cucumber and sliced hard-boiled eggs.",
+        "Repeat the layers with the remaining bread, mayonnaise mixture, smoked salmon, cucumber, and hard-boiled eggs.",
+        "Spread the remaining mayonnaise mixture over the top and sides of the sandwich cake.",
+        "Decorate the top of the sandwich cake with shrimp, sliced lemon, sliced radishes, and caviar.",
+        "Refrigerate the sandwich cake for at least 2 hours before serving."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Coq au Vin",
+      "description": "A classic French dish made with chicken, bacon, mushrooms, and red wine. Coq au vin, or chicken in wine, is a popular French stew that is known for its rich and savory flavor. The dish is made by braising chicken thighs in red wine, along with bacon, mushrooms, onions, and garlic, which infuses the meat with a deep and complex flavor. Coq au vin is typically served with mashed potatoes, rice, or crusty bread, which helps to soak up the delicious sauce. Whether enjoyed as a comforting family meal or as part of a special occasion, coq au vin is a delicious and elegant dish that is sure to impress.",
+      "short_description": "A classic French dish made with chicken, bacon, mushrooms, and red wine.",
+      "slug": "coq-au-vin",
+      "origin": "french",
+      "category": "main-dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 90,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": 8,
+          "unit": null
+        },
+        {
+          "name": "bacon",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "carrots",
+          "amount": 2,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "mushrooms",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "red wine",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "chicken broth",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "flour",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "butter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "parsley",
+          "amount": 2,
+          "unit": "tbsp",
+          "preparation": "chopped"
+        }
+      ],
+      "instructions": [
+        "In a large pot, cook the bacon over medium heat until crispy. Remove the bacon and set aside.",
+        "Season the chicken thighs with salt and black pepper. In the same pot, brown the chicken thighs on both sides. Remove the chicken and set aside.",
+        "In the same pot, add the chopped onion, sliced carrots, minced garlic, and sliced mushrooms. Cook until the vegetables are softened.",
+        "Sprinkle flour over the vegetables and stir well to coat.",
+        "Return the bacon and chicken to the pot. Add red wine, chicken broth, thyme, and bay leaves. Bring to a simmer.",
+        "Cover the pot and cook over low heat for about 1 hour, or until the chicken is cooked through and tender.",
+        "Remove the chicken from the pot and keep warm. Increase the heat and simmer the sauce until thickened.",
+        "Stir in butter and chopped parsley. Season with salt and black pepper to taste.",
+        "Serve the chicken with the sauce."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Chicken Shawarma",
+      "description": "A popular Middle Eastern dish made with marinated chicken thighs, grilled and served in pita bread with tzatziki sauce. Chicken shawarma is known for its tender and flavorful meat, which is marinated in a mixture of spices, garlic, and lemon juice. The chicken is typically grilled until charred and crispy, then sliced and served in pita bread with fresh vegetables and a tangy yogurt sauce. Whether enjoyed as a quick and satisfying meal or as part of a festive feast, chicken shawarma is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A popular Middle Eastern dish made with marinated chicken thighs, grilled and served in pita bread with tzatziki sauce.",
+      "slug": "chicken-shawarma",
+      "origin": "middle-eastern",
+      "category": "main-dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 20,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "ground cumin",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground paprika",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground coriander",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground turmeric",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground cinnamon",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "pita bread",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "tzatziki sauce",
+          "amount": null,
+          "unit": "for serving"
+        },
+        {
+          "name": "tomato",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine olive oil, lemon juice, minced garlic, ground cumin, ground paprika, ground coriander, ground turmeric, ground cinnamon, salt, and black pepper. Mix well.",
+        "Add the chicken thighs to the bowl and toss to coat them in the marinade. Let marinate for at least 1 hour, or overnight in the refrigerator.",
+        "Preheat the grill or a frying pan over medium-high heat. Cook the chicken thighs for about 5-7 minutes per side, or until cooked through.",
+        "Remove the chicken from the grill or pan and let rest for a few minutes. Slice the chicken into thin strips.",
+        "Warm the pita bread in a toaster or on the grill.",
+        "Spread tzatziki sauce on the pita bread. Top with sliced chicken, tomato, cucumber, and red onion.",
+        "Fold the pita bread in half and serve."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Falafel",
+      "description": "A popular Middle Eastern dish made with ground chickpeas, herbs, and spices, formed into balls and fried until crispy. Falafel is known for its savory and aromatic flavor, as well as its crispy and tender texture. The chickpea mixture is typically seasoned with a variety of spices, such as cumin, coriander, and cayenne pepper, which gives the falafel its signature taste. The balls are then fried until golden brown and crispy, and are often served with pita bread, hummus, and tahini sauce. Whether enjoyed as a quick and satisfying snack or as part of a larger meal, falafel is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A popular Middle Eastern dish made with ground chickpeas, herbs, and spices, formed into balls and fried until crispy.",
+      "slug": "falafel",
+      "origin": "middle-eastern",
+      "category": "main-dish",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 15,
+      "ingredients": [
+        {
+          "name": "dried chickpeas",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "chopped"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "fresh parsley",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "fresh cilantro",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "ground cumin",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground coriander",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "cayenne pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "baking powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": 250,
+          "unit": "ml",
+          "preparation": "for frying"
+        }
+      ],
+      "instructions": [
+        "In a food processor, combine dried chickpeas, chopped onion, minced garlic, chopped fresh parsley, chopped fresh cilantro, ground cumin, ground coriander, cayenne pepper, salt, black pepper, and baking powder. Process until the mixture is finely ground.",
+        "Transfer the mixture to a bowl and stir in all-purpose flour. Cover and refrigerate for at least 1 hour.",
+        "In a large pot, heat vegetable oil over medium heat. Form the chickpea mixture into small balls and flatten slightly to form patties.",
+        "Fry the falafel in batches for about 3-4 minutes per side, or until golden brown and crispy.",
+        "Remove the falafel from the oil and drain on paper towels.",
+        "Serve the falafel warm with pita bread, hummus, and tahini sauce."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Hummus",
+      "description": "A classic Middle Eastern dip made with chickpeas, tahini, lemon juice, and garlic. Hummus is known for its creamy texture and savory flavor, as well as its versatility as a dip or spread. The dip is typically made by blending canned chickpeas with tahini, lemon juice, and garlic, which gives the hummus its smooth and tangy taste. Hummus is often served with pita bread, fresh vegetables, or crackers, and is a popular choice for parties and gatherings. Whether enjoyed as a quick and satisfying snack or as part of a larger meal, hummus is a delicious and healthy option that is sure to please your taste buds.",
+      "short_description": "A classic Middle Eastern dip made with chickpeas, tahini, lemon juice, and garlic.",
+      "slug": "hummus",
+      "origin": "middle-eastern",
+      "category": "appetizer",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 10,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "amount": 400,
+          "unit": "g",
+          "preparation": "canned, drained and rinsed"
+        },
+        {
+          "name": "tahini",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "ground cumin",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 30,
+          "unit": "ml",
+          "preparation": "for drizzling"
+        },
+        {
+          "name": "paprika",
+          "amount": 1,
+          "unit": "tsp",
+          "preparation": "for garnish"
+        },
+        {
+          "name": "fresh parsley",
+          "amount": 2,
+          "unit": "tbsp",
+          "preparation": "for garnish"
+        }
+      ],
+      "instructions": [
+        "In a food processor, combine canned chickpeas, tahini, lemon juice, minced garlic, ground cumin, and salt. Process until smooth.",
+        "Transfer the hummus to a serving bowl. Drizzle with olive oil and sprinkle with paprika and chopped fresh parsley.",
+        "Serve the hummus with pita bread, fresh vegetables, or crackers."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tabbouleh",
+      "description": "A classic Middle Eastern salad made with bulgur, tomatoes, cucumbers, and fresh herbs, dressed with lemon juice and olive oil. Tabbouleh is known for its fresh and vibrant flavor, as well as its light and healthy ingredients. The salad is typically made by combining uncooked bulgur with diced tomatoes, diced cucumbers, sliced green onions, and chopped fresh parsley and mint. The salad is then dressed with a tangy and zesty mixture of lemon juice and olive oil, which adds a bright and refreshing element to the dish. Tabbouleh is often served as a side dish or as part of a mezze platter, and is a popular choice for picnics and barbecues. Whether enjoyed as a light and satisfying salad or as part of a larger meal, tabbouleh is a delicious and nutritious option that is sure to please your taste buds.",
+      "short_description": "A classic Middle Eastern salad made with bulgur, tomatoes, cucumbers, and fresh herbs, dressed with lemon juice and olive oil.",
+      "slug": "tabbouleh",
+      "origin": "middle-eastern",
+      "category": "salad",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "bulgur",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "uncooked"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "diced"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "diced"
+        },
+        {
+          "name": "green onions",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "fresh parsley",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "fresh mint",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine uncooked bulgur, diced tomatoes, diced cucumber, sliced green onions, chopped fresh parsley, and chopped fresh mint.",
+        "In a small bowl, whisk together lemon juice, olive oil, salt, and black pepper.",
+        "Pour the dressing over the bulgur mixture and toss to combine.",
+        "Cover and refrigerate the tabbouleh for at least 1 hour before serving."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Spaghetti Aglio e Olio",
+      "description": "A classic Italian pasta dish made with spaghetti, garlic, olive oil, and red pepper flakes. Spaghetti aglio e olio is known for its simple and flavorful ingredients, as well as its quick and easy preparation. The dish is typically made by sautéing thinly sliced garlic in olive oil until fragrant, then tossing the garlic oil with cooked spaghetti and red pepper flakes. The pasta is then finished with a generous sprinkling of chopped parsley, which adds a fresh and aromatic element to the dish. Spaghetti aglio e olio is often served as a light and satisfying meal, and is a popular choice for busy weeknights. Whether enjoyed as a quick and comforting dinner or as part of a larger meal, spaghetti aglio e olio is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic Italian pasta dish made with spaghetti, garlic, olive oil, and red pepper flakes.",
+      "slug": "spaghetti-aglio-e-olio",
+      "origin": "italian",
+      "category": "pasta",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": false,
+      "dairy-free": true,
+      "servings": 2,
+      "prep_time": 10,
+      "cook_time": 15,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "garlic",
+          "amount": 3,
+          "unit": "cloves",
+          "preparation": "thinly sliced"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "red pepper flakes",
+          "amount": 0.5,
+          "unit": "g (optional)",
+          "preparation": "optional"
+        },
+        {
+          "name": "parsley",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Meanwhile, heat olive oil in a pan over medium heat. Add garlic and cook until fragrant, about 30 seconds.",
+        "Add red pepper flakes (if using) and cook for another 30 seconds.",
+        "Reserve 125 ml of pasta water before draining spaghetti.",
+        "Drain spaghetti and add it to the pan with garlic oil. Toss to coat.",
+        "Gradually add pasta water, a little at a time, until a light sauce forms.",
+        "Stir in parsley, salt, and pepper to taste."
+      ]
+    },
+
+    {
+      "id": 11,
+      "title": "Caprese Salad",
+      "description": "A classic Italian salad made with tomatoes, fresh mozzarella cheese, basil, and a drizzle of olive oil and balsamic vinegar. Caprese salad is known for its simple and fresh ingredients, as well as its vibrant and colorful presentation. The salad is typically made by arranging thinly sliced tomatoes and fresh mozzarella cheese on a plate, then topping them with fresh basil leaves. The salad is then drizzled with extra virgin olive oil and balsamic vinegar, which adds a rich and tangy element to the dish. Caprese salad is often served as a light and refreshing appetizer, and is a popular choice for summer meals. Whether enjoyed as a quick and satisfying snack or as part of a larger meal, caprese salad is a delicious and elegant dish that is sure to please your taste buds.",
+      "short_description": "A classic Italian salad made with tomatoes, fresh mozzarella cheese, basil, and a drizzle of olive oil and balsamic vinegar.",
+      "slug": "caprese-salad",
+      "origin": "italian",
+      "category": "salad",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 2,
+      "prep_time": 10,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": 2,
+          "unit": null,
+          "preparation": "sliced thinly"
+        },
+        {
+          "name": "fresh mozzarella cheese",
+          "amount": 125,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "fresh basil leaves",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "washed and dried"
+        },
+        {
+          "name": "extra virgin olive oil",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "balsamic vinegar",
+          "amount": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "freshly ground black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "Arrange tomato slices on a plate.",
+        "Top with mozzarella slices and basil leaves.",
+        "Drizzle with olive oil and balsamic vinegar.",
+        "Season with salt and pepper to taste."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with spaghetti, guanciale, eggs, and parmesan cheese. Spaghetti carbonara is known for its rich and creamy sauce, as well as its simple and flavorful ingredients. The dish is typically made by tossing hot spaghetti with crispy guanciale, then adding a mixture of eggs, parmesan cheese, and black pepper. The heat from the pasta cooks the eggs, creating a creamy and luxurious sauce that coats the noodles. Spaghetti carbonara is often served as a comforting and satisfying meal, and is a popular choice for weeknight dinners. Whether enjoyed as a quick and indulgent dinner or as part of a larger meal, spaghetti carbonara is a delicious and elegant dish that is sure to please your taste buds.",
+      "short_description": "A classic Italian pasta dish made with spaghetti, guanciale, eggs, and parmesan cheese.",
+      "slug": "spaghetti-carbonara",
+      "origin": "italian",
+      "category": "pasta",
+      "vegetarian": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 2,
+      "prep_time": 15,
+      "cook_time": 10,
+      "ingredients": {
+        "pasta": {
+          "name": "spaghetti",
+          "measurement": 200,
+          "unit": "g"
+        },
+        "guanciale": {
+          "name": "guanciale",
+          "measurement": 150,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        "eggs": {
+          "name": "eggs",
+          "measurement": 3,
+          "unit": "large",
+          "preparation": "yolks only"
+        },
+        "parmesan": {
+          "name": "parmesan cheese",
+          "measurement": 125,
+          "unit": "ml",
+          "preparation": "grated"
+        },
+        "pecorino": {
+          "name": "pecorino romano cheese",
+          "measurement": 60,
+          "unit": "ml",
+          "preparation": "grated"
+        },
+        "pepper": {
+          "name": "black pepper",
+          "measurement": "to taste",
+          "unit": null
+        },
+        "salt": {
+          "name": "salt",
+          "measurement": "to taste",
+          "unit": null
+        }
+      },
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Meanwhile, heat a pan over medium heat. Add guanciale and cook until crispy, about 5-7 minutes. Remove guanciale from the pan with a slotted spoon, leaving the rendered fat in the pan.",
+        "In a large bowl, whisk together egg yolks, parmesan, pecorino, and pepper. Season with salt to taste.",
+        "Reserve about 125 ml of pasta water before draining the spaghetti.",
+        "Drain spaghetti and add it to the pan with the guanciale fat. Toss to coat.",
+        "Immediately add the hot pasta water to the egg mixture, whisking constantly to temper it. This will prevent the eggs from scrambling.",
+        "Pour the egg mixture over the pasta and toss to coat, adding more pasta water if needed to create a creamy sauce.",
+        "Serve immediately, topped with the reserved guanciale and additional parmesan cheese."
+      ]
+    },
+
+    {
+      "id": 13,
+      "title": "Tiramisu",
+      "description": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and a rich mascarpone cream, dusted with cocoa powder. Tiramisu is known for its creamy and indulgent texture, as well as its bold and aromatic flavors. The dessert is typically made by dipping ladyfingers into a mixture of espresso and amaretto, then layering them with a sweet and velvety mascarpone cream. The tiramisu is then chilled until set, and is often dusted with cocoa powder before serving. Tiramisu is often served as a decadent and elegant dessert, and is a popular choice for special occasions and celebrations. Whether enjoyed as a sweet and satisfying treat or as part of a larger meal, tiramisu is a delicious and luxurious dish that is sure to please your taste buds.",
+      "short_description": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and a rich mascarpone cream, dusted with cocoa powder.",
+      "slug": "tiramisu",
+      "origin": "italian",
+      "category": "dessert",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 30,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "egg yolks",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "mascarpone cheese",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "heavy cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "espresso",
+          "amount": 240,
+          "unit": "ml",
+          "preparation": "cooled"
+        },
+        {
+          "name": "amaretto liqueur",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "ladyfingers",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cocoa powder",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "In a large bowl, whisk together egg yolks and sugar until pale and creamy.",
+        "Add mascarpone cheese and whisk until smooth.",
+        "In a separate bowl, whip heavy cream until stiff peaks form.",
+        "Gently fold the whipped cream into the mascarpone mixture until well combined.",
+        "In a shallow dish, combine espresso and amaretto.",
+        "Dip each ladyfinger into the espresso mixture for a few seconds, then arrange them in the bottom of a 9x9-inch (23x23 cm) serving dish.",
+        "Spread half of the mascarpone mixture over the ladyfingers.",
+        "Repeat with another layer of espresso-dipped ladyfingers and the remaining mascarpone mixture.",
+        "Cover and refrigerate for at least 4 hours, or overnight.",
+        "Before serving, dust the top with cocoad powder."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Pasta Primavera",
+      "description": "A classic Italian pasta dish made with spaghetti, fresh vegetables, and a light olive oil sauce. Pasta primavera is known for its vibrant and colorful ingredients, as well as its simple and fresh flavors. The dish is typically made by sautéing a variety of fresh vegetables, such as bell peppers, zucchini, cherry tomatoes, and asparagus, in olive oil, then tossing them with cooked spaghetti. The pasta is then finished with a sprinkling of fresh basil and grated parmesan cheese, which adds a bright and savory element to the dish. Pasta primavera is often served as a light and satisfying meal, and is a popular choice for spring and summer dinners. Whether enjoyed as a quick and healthy dinner or as part of a larger meal, pasta primavera is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic Italian pasta dish made with spaghetti, fresh vegetables, and a light olive oil sauce.",
+      "slug": "pasta-primavera",
+      "origin": "italian",
+      "category": "pasta",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 15,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "sliced"
+        },
+        {
+          "name": "zucchini",
+          "amount": 2,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "cherry tomatoes",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "halved"
+        },
+        {
+          "name": "asparagus",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "cut into 2-inch pieces"
+        },
+        {
+          "name": "fresh basil",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "parmesan cheese",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "grated"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Meanwhile, heat olive oil in a large pan over medium heat. Add minced garlic and cook until fragrant, about 30 seconds.",
+        "Add sliced bell pepper, sliced zuchini, halved cherry tomatoes, and cut asparagus to the pan. Cook until the vegetables are tender-crisp.",
+        "Reserve 125 ml of pasta water before draining the spaghetti.",
+        "Drain spaghetti and add it to the pan with the vegetables. Toss to combine.",
+        "Gradually add pasta water, a little at a time, until a light sauce forms.",
+        "Stir in chopped basil and season with salt and black pepper to taste.",
+        "Serve the pasta primavera with grated parmesan cheese."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Panzanella",
+      "description": "A classic Italian salad made with stale bread, tomatoes, cucumbers, bell peppers, and red onion, dressed with olive oil and red wine vinegar. Panzanella is known for its fresh and vibrant flavors, as well as its simple and rustic ingredients. The salad is typically made by combining cubed stale bread with chopped tomatoes, cucumbers, bell peppers, and red onion, then tossing them with a tangy vinaigrette. The salad is then left to sit for at least 30 minutes before serving, allowing the flavors to meld and the bread to soak up the dressing. Panzanella is often served as a light and refreshing appetizer, and is a popular choice for summer meals. Whether enjoyed as a quick and satisfying salad or as part of a larger meal, panzanella is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic Italian salad made with stale bread, tomatoes, cucumbers, bell peppers, and red onion, dressed with olive oil and red wine vinegar.",
+      "slug": "panzanella",
+      "origin": "italian",
+      "category": "salad",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": false,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "bread",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "stale, cubed"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "cubed"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "sliced"
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "fresh basil",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "red wine vinegar",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a large bowl, combine cubed bread, cubed tomatoes, cubed cucumber, sliced red onion, and cubed bell pepper.",
+        "In a small bowl, whisk together olive oil and red wine vinegar. Season with salt and black pepper to taste.",
+        "Drizzle the dressing over the bread and vegetable mixture. Toss to combine.",
+        "Let the panzanella sit for at least 30 minutes before serving to allow the flavors to meld.",
+        "Stir in chopped basil just before serving."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Gazpacho",
+      "description": "A classic Spanish soup made with fresh tomatoes, cucumbers, bell peppers, and red onion, blended with olive oil and red wine vinegar. Gazpacho is known for its refreshing and vibrant flavors, as well as its simple and healthy ingredients. The soup is typically made by blending fresh tomatoes, cucumbers, bell peppers, and red onion until smooth, then adding olive oil and red wine vinegar to create a light and tangy base. The gazpacho is then chilled in the refrigerator for at least 2 hours before serving, allowing the flavors to meld and the soup to become cold and refreshing. Gazpacho is often served as a light and satisfying appetizer, and is a popular choice for summer meals. Whether enjoyed as a quick and healthy soup or as part of a larger meal, gazpacho is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic Spanish soup made with fresh tomatoes, cucumbers, bell peppers, and red onion, blended with olive oil and red wine vinegar.",
+      "slug": "gazpacho",
+      "origin": "spanish",
+      "category": "soup",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": 1,
+          "unit": "kg",
+          "preparation": "chopped"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "peeled and chopped"
+        },
+        {
+          "name": "red bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "chopped"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "red wine vinegar",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a blender, combine chopped tomatoes, chopped cucumber, chopped red bell pepper, chopped red onion, and minced garlic. Blend until smooth.",
+        "With the blender running, gradually add olive oil and red wine vinegar. Blend until well combined.",
+        "Season with salt and black pepper to taste.",
+        "Chill the gazpacho in the refrigerator for at least 2 hours before serving.",
+        "Stir the gazpacho before serving and adjust the seasoning if necessary."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Ratatouille",
+      "description": "A classic French vegetable stew made with eggplant, zucchini, bell peppers, onions, and tomatoes, cooked in olive oil with fresh herbs. Ratatouille is known for its rich and savory flavors, as well as its colorful and aromatic ingredients. The stew is typically made by sautéing chopped onions and minced garlic in olive oil, then adding cubed eggplant, zucchini, and bell peppers to the pot. The vegetables are then simmered with chopped tomatoes and fresh herbs until tender and fragrant. Ratatouille is often served as a side dish or as a topping for cooked pasta or rice, and is a popular choice for vegetarian and vegan meals. Whether enjoyed as a hearty and satisfying stew or as part of a larger meal, ratatouille is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic French vegetable stew made with eggplant, zucchini, bell peppers, onions, and tomatoes, cooked in olive oil with fresh herbs.",
+      "slug": "ratatouille",
+      "origin": "french",
+      "category": "main-dish",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 40,
+      "ingredients": [
+        {
+          "name": "eggplant",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "zucchini",
+          "amount": 2,
+          "unit": null,
+          "preparation": "cubed"
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "fresh thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "fresh basil",
+          "amount": 4,
+          "unit": "leaves",
+          "preparation": "torn"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a large pot, heat olive oil over medium heat. Add the chopped onion and cook until softened.",
+        "Add the minced garlic and cook until fragrant, about 30 seconds.",
+        "Add the cubed eggplant, zucchini, and bell pepper to the pot. Cook until the vegetables are softened.",
+        "Stir in the chopped tomatoes, fresh thyme, and torn basil leaves. Season with salt and black pepper to taste.",
+        "Cover the pot and simmer for about 20 minutes, or until the vegetables are tender.",
+        "Serve the ratatouille as a side dish or over cooked pasta or rice."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Croque Monsieur",
+      "description": "A classic French sandwich made with ham, gruyère cheese, and béchamel sauce, toasted until golden and crispy. Croque monsieur is known for its rich and indulgent flavors, as well as its warm and satisfying texture. The sandwich is typically made by spreading béchamel sauce on slices of bread, then layering them with sliced ham and grated gruyère cheese. The sandwiches are then toasted in the oven until golden and crispy, and are often served as a comforting and hearty meal. Whether enjoyed as a quick and satisfying lunch or as part of a larger meal, croque monsieur is a delicious and elegant dish that is sure to please your taste buds.",
+      "short_description": "A classic French sandwich made with ham, gruyère cheese, and béchamel sauce, toasted until golden and crispy.",
+      "slug": "croque-monsieur",
+      "origin": "french",
+      "category": "sandwich",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 2,
+      "prep_time": 10,
+      "cook_time": 10,
+      "ingredients": [
+        {
+          "name": "butter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "gruyère cheese",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "grated"
+        },
+        {
+          "name": "dijon mustard",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ham",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "bread",
+          "amount": 4,
+          "unit": "slices"
+        },
+        {
+          "name": "butter",
+          "amount": 30,
+          "unit": "g",
+          "preparation": "for spreading"
+        }
+      ],
+      "instructions": [
+        "In a saucepan, melt butter over medium heat. Add flour and cook, stirring constantly, for 1-2 minutes.",
+        "Gradually whisk in milk until smooth. Cook, stirring constantly, until the sauce thickens.",
+        "Remove the saucepan from the heat and stir in grated gruyère cheese and dijon mustard until the cheese is melted.",
+        "Preheat the oven to 200°C (400°F).",
+        "Spread butter on one side of each bread slice. Place the bread slices, buttered side down, on a baking sheet.",
+        "Spread the cheese sauce over the bread slices. Top two of the slices with sliced ham. Place the remaining bread slices on top, cheese sauce side down.",
+        "Bake in the preheated oven for about 10 minutes, or until the sandwiches are golden and crispy.",
+        "Serve the croque monsieur warm."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Quiche Lorraine",
+      "description": "A classic French tart made with a buttery pie crust, filled with bacon, onion, and gruyère cheese in a creamy egg custard. Quiche lorraine is known for its rich and savory flavors, as well as its light and flaky texture. The tart is typically made by lining a pie dish with a buttery pie crust, then filling it with a mixture of diced bacon, chopped onion, and grated gruyère cheese. The filling is then topped with a creamy egg custard, made with eggs, heavy cream, and a hint of nutmeg. The quiche is then baked in the oven until the custard is set and the crust is golden and flaky. Quiche lorraine is often served as a satisfying and elegant meal, and is a popular choice for brunches and special occasions. Whether enjoyed as a comforting and indulgent dish or as part of a larger meal, quiche lorraine is a delicious and versatile tart that is sure to please your taste buds.",
+      "short_description": "A classic French tart made with a buttery pie crust, filled with bacon, onion, and gruyère cheese in a creamy egg custard.",
+      "slug": "quiche-lorraine",
+      "origin": "french",
+      "category": "main-dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 20,
+      "cook_time": 40,
+      "ingredients": [
+        {
+          "name": "pie crust",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "bacon",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "chopped"
+        },
+        {
+          "name": "gruyère cheese",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "grated"
+        },
+        {
+          "name": "eggs",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "heavy cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "nutmeg",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 190°C (375°F).",
+        "Line a pie dish with the pie crust.",
+        "In a frying pan, cook the diced bacon over medium heat until crispy. Remove the bacon and set aside, leaving the rendered fat in the pan.",
+        "Add the chopped onion to the pan and cook until softened.",
+        "Spread the cooked bacon and onion over the pie crust. Sprinkle grated gruyère cheese over the top.",
+        "In a bowl, whisk together eggs, heavy cream, salt, black pepper, and nutmeg. Pour the egg mixture over the bacon, onion, and cheese.",
+        "Bake in the preheated oven for about 40 minutes, or until the quiche is set and golden brown.",
+        "Let the quiche cool for a few minutes before slicing and serving."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Crepes",
+      "description": "A classic French pancake made with a thin and delicate batter, cooked until golden and filled with sweet or savory fillings. Crepes are known for their light and tender texture, as well as their versatility and adaptability. The pancakes are typically made by whisking together a simple batter of flour, eggs, milk, and melted butter, then pouring it into a hot skillet and swirling to coat the bottom. The crepes are then cooked until golden and lacy, and are often filled with a variety of sweet or savory ingredients, such as fresh fruit, whipped cream, Nutella, or ham and cheese. Crepes are often served as a satisfying and elegant meal, and are a popular choice for breakfasts, brunches, and desserts. Whether enjoyed as a quick and indulgent treat or as part of a larger meal, crepes are a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic French pancake made with a thin and delicate batter, cooked until golden and filled with sweet or savory fillings.",
+      "slug": "crepes",
+      "origin": "french",
+      "category": "dessert",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 10,
+      "cook_time": 20,
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "water",
+          "amount": 125,
+          "unit": "ml"
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "melted"
+        },
+        {
+          "name": "sugar",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "name": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "In a blender, combine all-purpose flour, eggs, milk, water, melted butter, sugar, vanilla extract, and salt. Blend until smooth.",
+        "Heat a non-stick skillet over medium heat. Pour a small amount of batter into the skillet and swirl to spread the batter evenly.",
+        "Cook the crepe for about 2 minutes, or until the bottom is light brown. Loosen with a spatula, turn and cook the other side.",
+        "Repeat with the remaining batter, greasing the skillet as needed.",
+        "Serve the crepes warm with your favorite fillings and toppings."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Beef Bourguignon",
+      "description": "A classic French stew made with beef chuck, bacon, onions, carrots, and mushrooms, braised in red wine and beef broth. Beef bourguignon is known for its rich and savory flavors, as well as its tender and succulent texture. The stew is typically made by browning chunks of beef chuck and diced bacon, then sautéing chopped onions, sliced carrots, and minced garlic in the rendered fat. The beef and vegetables are then simmered with red wine, beef broth, and fresh herbs until the meat is tender and the flavors are melded. Beef bourguignon is often served as a hearty and satisfying meal, and is a popular choice for special occasions and celebrations. Whether enjoyed as a comforting and indulgent dish or as part of a larger meal, beef bourguignon is a delicious and elegant stew that is sure to please your taste buds.",
+      "short_description": "A classic French stew made with beef chuck, bacon, onions, carrots, and mushrooms, braised in red wine and beef broth.",
+      "slug": "beef-bourguignon",
+      "origin": "french",
+      "category": "main-dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 20,
+      "cook_time": 180,
+      "ingredients": [
+        {
+          "name": "beef chuck",
+          "amount": 1,
+          "unit": "kg",
+          "preparation": "cut into 2-inch pieces"
+        },
+        {
+          "name": "bacon",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "carrots",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "red wine",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "beef broth",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "tomato paste",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "flour",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "mushrooms",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "parsley",
+          "amount": 2,
+          "unit": "tbsp",
+          "preparation": "chopped"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 160°C (325°F).",
+        "In a large pot, cook the diced bacon over medium heat until crispy. Remove the bacon and set aside, leaving the rendered fat in the pot.",
+        "Season the beef chuck with salt and black pepper. In the same pot, brown the beef on all sides. Remove the beef and set aside.",
+        "Add the chopped onion, sliced carrots, and minced garlic to the pot. Cook until the vegetables are softened.",
+        "Stir in flour and cook for 1-2 minutes.",
+        "Return the beef and bacon to the pot. Add red wine, beef broth, tomato paste, fresh thyme, and bay leaves. Bring to a simmer.",
+        "Cover the pot and transfer to the preheated oven. Cook for about 2 hours, or until the beef is tender.",
+        "In a frying pan, melt butter over medium heat. Add the sliced mushrooms and cook until browned.",
+        "Add the cooked mushrooms to the pot with the beef bourguignon. Simmer for another 30 minutes.",
+        "Remove the pot from the oven and discard the thyme sprigs and bay leaves. Stir in chopped parsley.",
+        "Serve the beef bourguignon with mashed potatoes or crusty bread."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Salade Niçoise",
+      "description": "A classic French salad made with mixed salad greens, cherry tomatoes, cucumber, red onion, hard-boiled eggs, kalamata olives, anchovy fillets, and seared tuna, dressed with a lemon vinaigrette. Salade niçoise is known for its fresh and vibrant flavors, as well as its colorful and nutritious ingredients. The salad is typically made by arranging mixed salad greens, halved cherry tomatoes, sliced cucumber, and sliced red onion on a serving platter, then topping them with hard-boiled eggs, kalamata olives, and anchovy fillets. The salad is then finished with seared tuna steaks and a tangy lemon vinaigrette, which adds a bright and zesty element to the dish. Salade niçoise is often served as a light and satisfying meal, and is a popular choice for spring and summer dinners. Whether enjoyed as a quick and healthy salad or as part of a larger meal, salade niçoise is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic French salad made with mixed salad greens, cherry tomatoes, cucumber, red onion, hard-boiled eggs, kalamata olives, anchovy fillets, and seared tuna, dressed with a lemon vinaigrette.",
+      "slug": "salade-nicoise",
+      "origin": "french",
+      "category": "salad",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "tuna steaks",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "mixed salad greens",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cherry tomatoes",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "halved"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "sliced"
+        },
+        {
+          "name": "hard-boiled eggs",
+          "amount": 4,
+          "unit": null,
+          "preparation": "halved"
+        },
+        {
+          "name": "kalamata olives",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "anchovy fillets",
+          "amount": 8,
+          "unit": null
+        },
+        {
+          "name": "fresh basil",
+          "amount": 4,
+          "unit": "leaves",
+          "preparation": "torn"
+        }
+      ],
+      "instructions": [
+        "In a bowl, whisk together olive oil, lemon juice, minced garlic, salt, and black pepper. Set aside.",
+        "Season the tuna steaks with salt and black pepper. In a frying pan, heat olive oil over medium-high heat. Add the tuna steaks and cook for about 2-3 minutes per side, or until cooked to your liking. Remove the tuna steaks from the pan and let rest for a few minutes before slicing.",
+        "In a large bowl, combine mixed salad greens, halved cherry tomatoes, sliced cucumber, and sliced red onion. Toss with the dressing.",
+        "Arrange the salad on a serving platter. Top with hard-boiled eggs, kalamata olives, anchovy fillets, and torn basil leaves.",
+        "Arrange the sliced tuna on top of the salad.",
+        "Serve the salade niçoise with crusty bread."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "French Onion Soup",
+      "description": "A classic French soup made with caramelized onions, beef broth, and dry white wine, topped with toasted baguette slices and melted gruyère cheese. French onion soup is known for its rich and savory flavors, as well as its warm and comforting texture. The soup is typically made by caramelizing sliced onions in butter and olive oil, then simmering them with beef broth, dry white wine, and fresh thyme until the flavors are well combined. The soup is then ladled into oven-safe bowls, topped with toasted baguette slices and grated gruyère cheese, and broiled in the oven until the cheese is melted and bubbly. French onion soup is often served as a satisfying and elegant appetizer, and is a popular choice for special occasions and celebrations. Whether enjoyed as a comforting and indulgent soup or as part of a larger meal, French onion soup is a delicious and versatile dish that is sure to please your taste buds.",
+      "short_description": "A classic French soup made with caramelized onions, beef broth, and dry white wine, topped with toasted baguette slices and melted gruyère cheese.",
+      "slug": "french-onion-soup",
+      "origin": "french",
+      "category": "soup",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 10,
+      "cook_time": 90,
+      "ingredients": [
+        {
+          "name": "onions",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "sliced"
+        },
+        {
+          "name": "butter",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "beef broth",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "name": "dry white wine",
+          "amount": 125,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "baguette",
+          "amount": 4,
+          "unit": "slices"
+        },
+        {
+          "name": "gruyère cheese",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "grated"
+        }
+      ],
+      "instructions": [
+        "In a large pot, melt butter and olive oil over medium heat. Add the sliced onions and cook until caramelized, about 30-40 minutes.",
+        "Add minced garlic and cook until fragrant, about 30 seconds.",
+        "Stir in beef broth, dry white wine, fresh thyme, and bay leaves. Bring to a simmer.",
+        "Cover the pot and cook over low heat for about 30 minutes, or until the flavors are well combined.",
+        "Preheat the oven to 200 °C (400 °F).",
+        "Arrange the baguette slices on a baking sheet. Toast in the preheated oven for about 5 minutes, or until golden brown.",
+        "Ladle the soup into oven-safe bowls. Top each bowl with a slice of toasted baguette and grated gruyère cheese.",
+        "Place the bowls on a baking sheet and broil in the preheated oven for about 5 minutes, or until the cheese is melted and bubbly.",
+        "Serve the French onion soup hot."
+      ]
+    }
+  ]
+}
