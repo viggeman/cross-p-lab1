@@ -1,0 +1,24 @@
+.listItem {
+  margin-bottom: 0.4rem;
+  color: black;
+}
+
+.listItem:hover {
+  color: #0070f3;
+}
+
+.instructions {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  list-style: decimal;
+}
+
+.instructionsItem {
+  margin-bottom: 0.4rem;
+  color: black;
+}
+
+.title {
+  color: black;
+  margin-bottom: 1rem;
+}

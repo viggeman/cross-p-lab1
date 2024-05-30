@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const getStaticProps = async () => {
   const res = await fetch('http://localhost:4000/recipes');
   const data = await res.json();
@@ -10,7 +12,7 @@ export const getStaticProps = async () => {
 interface Recipe {
   id: number;
   title: string;
-  description: string;
+  slug: string;
 }
 
 const Recipes: React.FC<{ recipes: Recipe[] }> = ({ recipes }) => {
@@ -18,8 +20,8 @@ const Recipes: React.FC<{ recipes: Recipe[] }> = ({ recipes }) => {
     <div>
       <h1>Recipes</h1>
       {recipes.map((recipe) => (
-        <div key={recipe.id}>
-          <h2>{recipe.title}</h2>
+        <div className="" key={recipe.id}>
+          <Link href={`/recipes/${recipe.slug}`}>{recipe.title}</Link>
         </div>
       ))}
     </div>

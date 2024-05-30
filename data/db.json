@@ -39,8 +39,7 @@
         },
         {
           "name": "egg",
-          "amount": 1,
-          "unit": null
+          "amount": 1
         },
         {
           "name": "salt",
@@ -59,7 +58,6 @@
         },
         {
           "name": "lingonberry sauce",
-          "amount": null,
           "unit": "for serving"
         }
       ],
@@ -114,7 +112,6 @@
         },
         {
           "name": "mustard sauce",
-          "amount": null,
           "unit": "for serving"
         }
       ],
@@ -167,8 +164,7 @@
         },
         {
           "name": "egg",
-          "amount": 1,
-          "unit": null
+          "amount": 1
         },
         {
           "name": "all-purpose flour",
@@ -243,13 +239,11 @@
         {
           "name": "cucumber",
           "amount": 1,
-          "unit": null,
           "preparation": "sliced"
         },
         {
           "name": "hard-boiled eggs",
           "amount": 4,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -276,13 +270,11 @@
         {
           "name": "lemon",
           "amount": 1,
-          "unit": null,
           "preparation": "sliced"
         },
         {
           "name": "radishes",
           "amount": 4,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -319,8 +311,7 @@
       "ingredients": [
         {
           "name": "chicken thighs",
-          "amount": 8,
-          "unit": null
+          "amount": 8
         },
         {
           "name": "bacon",
@@ -337,7 +328,6 @@
         {
           "name": "carrots",
           "amount": 2,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -369,17 +359,14 @@
         },
         {
           "name": "bay leaves",
-          "amount": 2,
-          "unit": null
+          "amount": 2
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         },
         {
@@ -485,30 +472,25 @@
         },
         {
           "name": "pita bread",
-          "amount": 4,
-          "unit": null
+          "amount": 4
         },
         {
           "name": "tzatziki sauce",
-          "amount": null,
           "unit": "for serving"
         },
         {
           "name": "tomato",
           "amount": 1,
-          "unit": null,
           "preparation": "sliced"
         },
         {
           "name": "cucumber",
           "amount": 1,
-          "unit": null,
           "preparation": "sliced"
         },
         {
           "name": "red onion",
           "amount": 1,
-          "unit": null,
           "preparation": "sliced"
         }
       ],
@@ -728,7 +710,6 @@
         {
           "name": "green onions",
           "amount": 4,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -817,12 +798,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "pepper",
-          "amount": null,
           "unit": "to taste"
         }
       ],
@@ -856,7 +835,6 @@
         {
           "name": "tomatoes",
           "amount": 2,
-          "unit": null,
           "preparation": "sliced thinly"
         },
         {
@@ -883,12 +861,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "freshly ground black pepper",
-          "amount": null,
           "unit": "to taste"
         }
       ],
@@ -945,13 +921,11 @@
         },
         "pepper": {
           "name": "black pepper",
-          "measurement": "to taste",
-          "unit": null
+          "measurement": "to taste"
         },
         "salt": {
           "name": "salt",
-          "measurement": "to taste",
-          "unit": null
+          "measurement": "to taste"
         }
       },
       "instructions": [
@@ -984,8 +958,7 @@
       "ingredients": [
         {
           "name": "egg yolks",
-          "amount": 4,
-          "unit": null
+          "amount": 4
         },
         {
           "name": "sugar",
@@ -1078,7 +1051,6 @@
         {
           "name": "zucchini",
           "amount": 2,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -1107,12 +1079,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         }
       ],
@@ -1158,7 +1128,6 @@
         {
           "name": "cucumber",
           "amount": 1,
-          "unit": null,
           "preparation": "cubed"
         },
         {
@@ -1191,12 +1160,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         }
       ],
@@ -1266,12 +1233,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         }
       ],
@@ -1308,7 +1273,6 @@
         {
           "name": "zucchini",
           "amount": 2,
-          "unit": null,
           "preparation": "cubed"
         },
         {
@@ -1353,12 +1317,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         }
       ],
@@ -1460,8 +1422,7 @@
       "ingredients": [
         {
           "name": "pie crust",
-          "amount": 1,
-          "unit": null
+          "amount": 1
         },
         {
           "name": "bacon",
@@ -1483,8 +1444,7 @@
         },
         {
           "name": "eggs",
-          "amount": 4,
-          "unit": null
+          "amount": 4
         },
         {
           "name": "heavy cream",
@@ -1493,12 +1453,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         },
         {
@@ -1541,8 +1499,7 @@
         },
         {
           "name": "eggs",
-          "amount": 2,
-          "unit": null
+          "amount": 2
         },
         {
           "name": "milk",
@@ -1621,7 +1578,6 @@
         {
           "name": "carrots",
           "amount": 4,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -1652,8 +1608,7 @@
         },
         {
           "name": "bay leaves",
-          "amount": 2,
-          "unit": null
+          "amount": 2
         },
         {
           "name": "butter",
@@ -1710,8 +1665,7 @@
       "ingredients": [
         {
           "name": "tuna steaks",
-          "amount": 4,
-          "unit": null
+          "amount": 4
         },
         {
           "name": "olive oil",
@@ -1731,12 +1685,10 @@
         },
         {
           "name": "salt",
-          "amount": null,
           "unit": "to taste"
         },
         {
           "name": "black pepper",
-          "amount": null,
           "unit": "to taste"
         },
         {
@@ -1753,7 +1705,6 @@
         {
           "name": "cucumber",
           "amount": 1,
-          "unit": null,
           "preparation": "sliced"
         },
         {
@@ -1765,7 +1716,6 @@
         {
           "name": "hard-boiled eggs",
           "amount": 4,
-          "unit": null,
           "preparation": "halved"
         },
         {
@@ -1775,8 +1725,7 @@
         },
         {
           "name": "anchovy fillets",
-          "amount": 8,
-          "unit": null
+          "amount": 8
         },
         {
           "name": "fresh basil",
@@ -1849,8 +1798,7 @@
         },
         {
           "name": "bay leaves",
-          "amount": 2,
-          "unit": null
+          "amount": 2
         },
         {
           "name": "baguette",

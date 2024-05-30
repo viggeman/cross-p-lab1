@@ -67,12 +67,6 @@ button {
   font-size: 1.4rem;
   cursor: pointer;
   text-align: center;
-  min-width: 15rem;
-}
-
-button:hover:enabled {
-  background-color: black;
-  color: white;
 }
 
 .wrapper {
