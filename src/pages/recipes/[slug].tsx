@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Modal from "src/components/Modal/Modal";
 import styles from 'src/styles/Slug.module.css'
 
@@ -61,40 +62,52 @@ const Recipe: React.FC<{recipe: RecipeProps}> = ({ recipe }) => {
   }, [recipe.ingredients]);
 
   return (
-    <div>
-      <button onClick={() => setShowModal(true)}>
-        View Ingredients & Instructions
-      </button>
-      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
-        <div>
-          <h4 className={styles.title}>Ingredients</h4>
-          <ul>
-            {ingredients.map((ingredient, index) => (
-              <li className={styles.listItem} key={index}>{ingredient}</li>
-            ))}
-          </ul>
+    <>
+    <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
+      <div>
+        <h4 className={styles.title}>Ingredients</h4>
+        <ul>
+          {ingredients.map((ingredient, index) => (
+            <li className={styles.listItem} key={index}>{ingredient}</li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h4 className={styles.title}>Instructions</h4>
+        <ol className={styles.instructions}>
+          {recipe.instructions.map((instruction, index) => (
+            <li className={styles.instructionsItem} key={index}>{instruction}</li>
+          ))}
+        </ol>
+      </div>
+    </Modal>
+
+    <div className={styles.grid}>
+      <div className={styles.gridImage}>
+        <Image
+          src='/image/chicken-feast.jpg'
+          alt={recipe.title}
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+      <div className={styles.gridContent}>
+        <h3>Recipe: {recipe.title}</h3>
+        <p>{recipe.short_description}</p>
+        <div className={styles.infoBox}>
+          <p>Origin: {recipe.origin}</p>
+          <p>Servings: {recipe.servings}</p>
+          <p>Prep Time: {recipe.prep_time} minutes</p>
+          <p>Cook Time: {recipe.cook_time} minutes</p>
         </div>
-        <div>
-          <h4 className={styles.title}>Instructions</h4>
-          <ol className={styles.instructions}>
-            {recipe.instructions.map((instruction, index) => (
-              <li className={styles.instructionsItem} key={index}>{instruction}</li>
-            ))}
-          </ol>
-        </div>
-      </Modal>
-      <h3>Recipe: {recipe.title}</h3>
-      <p>{recipe.short_description}</p>
-      <p>{recipe.description}</p>
-      <p>Origin: {recipe.origin}</p>
-      <p>Category: {recipe.category}</p>
-      <p>Servings: {recipe.servings}</p>
-      <p>Prep Time: {recipe.prep_time} minutes</p>
-      <p>Cook Time: {recipe.cook_time} minutes</p>
-      <button onClick={() => setShowModal(true)}>
-        View Ingredients & Instructions
-      </button>
+        <button className={styles.modalButton} onClick={() => setShowModal(true)}>
+          View Ingredients & Instructions
+        </button>
+        <h3>Description:</h3>
+        <p>{recipe.description}</p>
+      </div>
     </div>
+    </>
   );
 };
 
