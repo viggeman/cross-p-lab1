@@ -50,6 +50,11 @@ const Recipe: React.FC<{recipe: RecipeProps}> = ({ recipe }) => {
   const [showModal, setShowModal] = useState(false);
   const [ingredients, setIngredients] = useState<string[]>([]);
 
+  let noCook = false;
+  if (recipe.cook_time === 0) {
+    noCook = true;
+  }
+
   useEffect(() => {
     const newIngredients = recipe.ingredients.map(ingredient => {
       const preparationText = ingredient.preparation ? ` ${ingredient.preparation}` : '';
@@ -98,7 +103,7 @@ const Recipe: React.FC<{recipe: RecipeProps}> = ({ recipe }) => {
           <p>Origin: {recipe.origin}</p>
           <p>Servings: {recipe.servings}</p>
           <p>Prep Time: {recipe.prep_time} minutes</p>
-          <p>Cook Time: {recipe.cook_time} minutes</p>
+          {!noCook ? <p>Cook Time: {recipe.cook_time} minutes</p> : <p>No cooking time</p>}
         </div>
         <button className={styles.modalButton} onClick={() => setShowModal(true)}>
           View Ingredients & Instructions

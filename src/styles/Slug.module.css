@@ -39,23 +39,30 @@
 }
 
 .listItem {
-  margin-bottom: 0.4rem;
+  margin-bottom: 1rem;
   color: black;
 }
 
 .listItem:hover {
   color: #0070f3;
+  font-weight: bold;
 }
 
 .instructions {
   margin-top: 1rem;
   margin-left: 1.5rem;
   list-style: decimal;
+  max-width: 90%;
 }
 
 .instructionsItem {
-  margin-bottom: 0.4rem;
+  margin-bottom: 1rem;
   color: black;
+}
+
+.instructionsItem:hover {
+  font-weight: bold;
+  color: #0070f3;
 }
 
 .title {
