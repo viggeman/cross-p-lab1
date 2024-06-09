@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./RecipeCard.module.css";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 
-interface Recipe {
+interface RecipeCardProps {
   id: number;
   title: string;
   slug: string;
@@ -13,7 +13,7 @@ interface Recipe {
   cook_time: number;
 }
 
-const RecipeCard: React.FC<Recipe> = ({
+const RecipeCard: React.FC<RecipeCardProps> = ({
   title,
   slug,
   servings,

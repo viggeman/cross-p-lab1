@@ -1,24 +1,70 @@
-import Head from "next/head";
-// import Image from "next/image";
-import { Inter } from "next/font/google";
-// import styles from "src/styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import { useEffect, useState } from "react";
+import styled from 'styled-components';
 
 
-export default function Home() {
+// Styled components
+
+const Wrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 2rem;
+  width: 70vw;
+`;
+
+const Card = styled.div`
+  background-color: tomato;
+  height: 20rem;
+  width: 20rem;
+  padding: 1rem
+`;
+
+const Title = styled.h2`
+  font-size: 2rem;
+`;
+
+const Info = styled.p `
+  font-size: rem;
+`;
+
+interface Recipe {
+  id: string;
+  title: string;
+  vegan: boolean;
+  vegetarian: boolean;
+}
+
+const Index: React.FC = () => {
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('http://localhost:4000/recipes');
+        const data = await response.json();
+        setRecipes(data);
+        console.log(recipes)
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
-      <Head>
-        <title>Recipes</title>
-        <meta name="description" content="Recipe page made by viggeman" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main >
-        <h1>New page</h1>
-      </main>
+      <Wrapper>
+        {recipes.map((recipe, index) => (
+          <Card key={recipe.id}>
+            <Title key={recipe.title}>{recipe.title}</Title>
+            {recipe.vegetarian && <Info>Vegetarian</Info>}
+            {recipe.vegan && <Info>Vegan</Info>}
+          </Card>
+        ))}
+     </Wrapper>
     </>
   );
 }
+
+export default Index;

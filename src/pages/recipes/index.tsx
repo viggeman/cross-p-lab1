@@ -2,12 +2,18 @@ import RecipeCard from "src/components/RecipeCard/RecipeCard";
 import styles from 'src/styles/Recipes.module.css'
 
 export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:4000/recipes');
-  const data = await res.json();
+  try {
+    const res = await fetch('http://localhost:4000/recipes');
+    const data = await res.json();
 
-  return {
-    props: { recipes: data},
-  };
+    return {
+      props: { recipes: data},
+    };
+
+  } catch (error) {
+    console.error(error)
+  }
+
 }
 
 interface Recipe {
@@ -24,7 +30,7 @@ const Recipes: React.FC<{ recipes: Recipe[] }> = ({ recipes }) => {
     <>
     <h1>Recipes</h1>
 
-      <div className={styles.grid}> {/* Add styling for the list */}
+      <div className={styles.grid}>
         {recipes.map((recipe) => (
           <RecipeCard key={recipe.id} {...recipe} />
         ))}

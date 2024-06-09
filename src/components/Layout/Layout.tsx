@@ -9,9 +9,9 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <main className="container">
       {children}
-      </div>
+      </main>
     </>
    );
 }
