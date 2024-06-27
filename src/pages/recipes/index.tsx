@@ -1,5 +1,9 @@
-import RecipeCard from "src/components/RecipeCard/RecipeCard";
-import styles from 'src/styles/Recipes.module.css'
+import { useState } from 'react';
+import Modal from 'src/components/Modal/Modal';
+import RecipeCard from 'src/components/RecipeCard/RecipeCard';
+import styles from 'src/styles/Recipes.module.css';
+import { useFavorites } from 'src/components/contexts/FavoritesContext';
+import { useActiveModal } from 'src/components/contexts/ModalContext';
 
 export const getStaticProps = async () => {
   try {
@@ -7,17 +11,15 @@ export const getStaticProps = async () => {
     const data = await res.json();
 
     return {
-      props: { recipes: data},
+      props: { recipes: data },
     };
-
   } catch (error) {
-    console.error(error)
+    console.error(error);
   }
-
-}
+};
 
 interface Recipe {
-  id: number;
+  id: string;
   title: string;
   slug: string;
   servings: number;
@@ -25,17 +27,48 @@ interface Recipe {
   cook_time: number;
 }
 
-const Recipes: React.FC<{ recipes: Recipe[] }> = ({ recipes }) => {
+interface Props {
+  recipes: Recipe[];
+}
+
+const Recipes: React.FC<Props> = (props) => {
+  const { favorites } = useFavorites();
+  const { recipes } = props;
+  const { activeModal, setActiveModal } = useActiveModal();
+
+  const favoriteRecipes = favorites.map((id) => {
+    const recipe = recipes.find((r: Recipe) => r.id === id);
+    return recipe?.title;
+  });
   return (
     <>
-    <h1>Recipes</h1>
+      <Modal isOpen={activeModal === 'favorites'} onClose={() => setActiveModal('')}>
+        <h4>Favorite Recipes</h4>
+        {favoriteRecipes.map((recipeName) => (
+          <li key={recipeName}>{recipeName}</li>
+        ))}
+      </Modal>
+      <h1>Recipes</h1>
+      <button className={styles.modalButton} onClick={() => setActiveModal('favorites')}>
+        Favorites
+      </button>
 
       <div className={styles.grid}>
-        {recipes.map((recipe) => (
-          <RecipeCard key={recipe.id} {...recipe} />
-        ))}
+        {recipes.map((recipe: Recipe) => {
+          const { id, title, slug, servings, prep_time, cook_time } = recipe;
+          return (
+            <RecipeCard
+              key={id}
+              id={id}
+              title={title}
+              slug={slug}
+              servings={servings}
+              prep_time={prep_time}
+              cook_time={cook_time}
+            />
+          );
+        })}
       </div>
-
     </>
   );
 };

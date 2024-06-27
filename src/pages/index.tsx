@@ -1,7 +1,5 @@
-
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-
 
 // Styled components
 
@@ -16,14 +14,14 @@ const Card = styled.div`
   background-color: tomato;
   height: 20rem;
   width: 20rem;
-  padding: 1rem
+  padding: 1rem;
 `;
 
 const Title = styled.h2`
   font-size: 2rem;
 `;
 
-const Info = styled.p `
+const Info = styled.p`
   font-size: rem;
 `;
 
@@ -43,7 +41,7 @@ const Index: React.FC = () => {
         const response = await fetch('http://localhost:4000/recipes');
         const data = await response.json();
         setRecipes(data);
-        console.log(recipes)
+        console.log(recipes);
       } catch (error) {
         console.error(error);
       }
@@ -62,9 +60,9 @@ const Index: React.FC = () => {
             {recipe.vegan && <Info>Vegan</Info>}
           </Card>
         ))}
-     </Wrapper>
+      </Wrapper>
     </>
   );
-}
+};
 
 export default Index;

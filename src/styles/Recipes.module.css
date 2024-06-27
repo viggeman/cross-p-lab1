@@ -3,3 +3,17 @@
   grid-template-columns: repeat(4, 4fr);
   gap: 20px;
 }
+
+.modalButton {
+  background-color: #0070f3;
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.modalButton:hover {
+  background-color: #0053a0;
+}

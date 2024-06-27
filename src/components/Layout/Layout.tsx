@@ -1,19 +1,19 @@
-import Navbar from "../Navbar/Navbar";
-import { ReactNode } from "react";
+import Navbar from '../Navbar/Navbar';
+import { ReactNode } from 'react';
+import Overlay from '../Overlay/Overlay';
 
 interface LayoutProps {
   children: ReactNode;
 }
 
-const Layout: React.FC<LayoutProps> = ({children}) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main className="container">
-      {children}
-      </main>
+      <Overlay />
+      <main className="container">{children}</main>
     </>
-   );
-}
+  );
+};
 
 export default Layout;
