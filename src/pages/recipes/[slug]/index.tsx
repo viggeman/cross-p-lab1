@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import Modal from 'src/components/Modal/Modal';
-import styles from 'src/styles/Slug.module.css';
+import { useEffect, useState } from 'react';
 import { useFavorites } from 'src/components/contexts/FavoritesContext';
+import { useActiveModal } from 'src/components/contexts/ModalContext';
+import Modal from 'src/components/Modal/Modal';
+import styles from './Recipe.module.css';
 
 interface Recipe {
   id: string;
@@ -29,7 +30,7 @@ interface RecipeProps {
 }
 
 const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
-  const [showModal, setShowModal] = useState(false);
+  const { activeModal, setActiveModal } = useActiveModal();
   const [ingredients, setIngredients] = useState<string[]>([]);
   const { favorites, toggleFavorite } = useFavorites();
 
@@ -58,7 +59,7 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
 
   return (
     <>
-      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
+      <Modal isOpen={activeModal === 'instructions'} onClose={() => setActiveModal('')}>
         <div>
           <h4 className={styles.title}>Ingredients</h4>
           <ul>
@@ -102,7 +103,7 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
             <p>Prep Time: {recipe.prep_time} minutes</p>
             {!noCook ? <p>Cook Time: {recipe.cook_time} minutes</p> : <p>No cooking time</p>}
           </div>
-          <button className={styles.modalButton} onClick={() => setShowModal(true)}>
+          <button className={styles.modalButton} onClick={() => setActiveModal('instructions')}>
             View Ingredients & Instructions
           </button>
           <h3>Description:</h3>

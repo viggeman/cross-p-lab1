@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import Link from 'next/link';
+import { useFavorites } from 'src/components/contexts/FavoritesContext';
+import { useActiveModal } from 'src/components/contexts/ModalContext';
 import Modal from 'src/components/Modal/Modal';
 import RecipeCard from 'src/components/RecipeCard/RecipeCard';
 import styles from 'src/styles/Recipes.module.css';
-import { useFavorites } from 'src/components/contexts/FavoritesContext';
-import { useActiveModal } from 'src/components/contexts/ModalContext';
 
 export const getStaticProps = async () => {
   try {
@@ -38,14 +38,30 @@ const Recipes: React.FC<Props> = (props) => {
 
   const favoriteRecipes = favorites.map((id) => {
     const recipe = recipes.find((r: Recipe) => r.id === id);
-    return recipe?.title;
+
+    if (recipe) {
+      return {
+        title: recipe.title,
+        slug: recipe.slug,
+      };
+    } else {
+      return { title: 'Unknown Recipe', slug: '' };
+    }
   });
+
+  console.log('', favoriteRecipes);
   return (
     <>
       <Modal isOpen={activeModal === 'favorites'} onClose={() => setActiveModal('')}>
         <h4>Favorite Recipes</h4>
         {favoriteRecipes.map((recipeName) => (
-          <li key={recipeName}>{recipeName}</li>
+          <Link
+            key={recipeName.title}
+            href={`/recipes/${recipeName.slug}`}
+            onClick={() => setActiveModal('')}
+          >
+            <p>{recipeName.title}</p>
+          </Link>
         ))}
       </Modal>
       <h1>Recipes</h1>

@@ -11,7 +11,7 @@ interface Props {
   children: ReactNode;
 }
 
-type ModalTypes = '' | 'favorites' | 'instructions';
+type ModalTypes = '' | 'favorites' | 'instructions' | 'menu';
 
 interface ModalContextType {
   activeModal: string;

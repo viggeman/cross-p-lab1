@@ -1,6 +1,7 @@
 import Navbar from '../Navbar/Navbar';
 import { ReactNode } from 'react';
 import Overlay from '../Overlay/Overlay';
+import styles from './Layout.module.scss';
 
 interface LayoutProps {
   children: ReactNode;
@@ -11,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <>
       <Navbar />
       <Overlay />
-      <main className="container">{children}</main>
+      <main className={styles.container}>{children}</main>
     </>
   );
 };

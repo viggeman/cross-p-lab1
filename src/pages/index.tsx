@@ -1,66 +1,62 @@
-import { useEffect, useState } from 'react';
-import styled from 'styled-components';
+import Hightlight from 'src/components/Hightlight/Hightlight';
+import styles from '../styles/Index.module.scss';
 
-// Styled components
+export const getStaticProps = async () => {
+  try {
+    const res = await fetch('http://localhost:4000/recipes');
+    const data = await res.json();
 
-const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 4fr);
-  gap: 2rem;
-  width: 70vw;
-`;
-
-const Card = styled.div`
-  background-color: tomato;
-  height: 20rem;
-  width: 20rem;
-  padding: 1rem;
-`;
-
-const Title = styled.h2`
-  font-size: 2rem;
-`;
-
-const Info = styled.p`
-  font-size: rem;
-`;
+    return {
+      props: { recipes: data },
+    };
+  } catch (error) {
+    console.error(error);
+  }
+};
 
 interface Recipe {
   id: string;
   title: string;
+  short_description: string;
   vegan: boolean;
   vegetarian: boolean;
+  slug: string;
 }
 
-const Index: React.FC = () => {
-  const [recipes, setRecipes] = useState<Recipe[]>([]);
+interface Props {
+  recipes: Recipe[];
+}
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('http://localhost:4000/recipes');
-        const data = await response.json();
-        setRecipes(data);
-        console.log(recipes);
-      } catch (error) {
-        console.error(error);
-      }
-    };
+/*
+1. Hero image > Recipes
+2. Highlight modul > Recept
+*/
 
-    fetchData();
-  }, []);
+const Index: React.FC<Props> = (props) => {
+  const { recipes } = props;
+  const highlightRecipes = recipes.slice(0, 4);
+  console.log('highlights', highlightRecipes);
+  console.log(recipes);
 
   return (
     <>
-      <Wrapper>
-        {recipes.map((recipe, index) => (
-          <Card key={recipe.id}>
-            <Title key={recipe.title}>{recipe.title}</Title>
-            {recipe.vegetarian && <Info>Vegetarian</Info>}
-            {recipe.vegan && <Info>Vegan</Info>}
-          </Card>
-        ))}
-      </Wrapper>
+      <h1>Hej</h1>
+      <div className={styles.grid}>
+        {highlightRecipes.map((recipe: Recipe) => {
+          const { id, title, short_description, vegan, vegetarian, slug } = recipe;
+          return (
+            <Hightlight
+              key={id}
+              id={id}
+              title={title}
+              short_description={short_description}
+              vegan={vegan}
+              vegetarian={vegetarian}
+              slug={slug}
+            />
+          );
+        })}
+      </div>
     </>
   );
 };

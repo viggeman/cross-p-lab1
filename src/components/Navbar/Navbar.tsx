@@ -1,13 +1,14 @@
 import styles from './Navbar.module.scss';
 import Link from 'next/link';
+import { FC } from 'react';
 import Modal from 'src/components/Modal/Modal';
 import { useActiveModal } from 'src/components/contexts/ModalContext';
 
-const Navbar: React.FC = () => {
+const Navbar: FC = () => {
   const { activeModal, setActiveModal } = useActiveModal();
   return (
     <>
-      <Modal isOpen={activeModal === 'instructions'} onClose={() => setActiveModal('')}>
+      <Modal isOpen={activeModal === 'menu'} onClose={() => setActiveModal('')}>
         <h1>Testar</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam consequuntur
@@ -24,7 +25,7 @@ const Navbar: React.FC = () => {
             <li>Recipes</li>
           </Link>
           <li>
-            <button onClick={() => setActiveModal('instructions')}>Test</button>
+            <button onClick={() => setActiveModal('menu')}>Test</button>
           </li>
         </ul>
       </nav>

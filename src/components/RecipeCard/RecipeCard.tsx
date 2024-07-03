@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import styles from './RecipeCard.module.css';
+import Link from 'next/link';
 import { useMemo } from 'react';
 import { useFavorites } from '../contexts/FavoritesContext';
+import styles from './RecipeCard.module.scss';
 
 interface RecipeCardProps {
   id: string;
@@ -24,8 +24,6 @@ const RecipeCard: React.FC<RecipeCardProps> = ({
   const { favorites, toggleFavorite } = useFavorites();
   const isFavorite = favorites.includes(id);
 
-  const noCook = cook_time === 0 ? true : false;
-
   const totalTime: string = useMemo(() => {
     const cookAndPrepTime = cook_time + prep_time;
     if (cookAndPrepTime === 60) {
@@ -39,20 +37,21 @@ const RecipeCard: React.FC<RecipeCardProps> = ({
 
   return (
     <div className={styles.recipeCard}>
-      <Image src="/image/food.jpg" alt={title} width={300} height={200} />
-
-      <button className={styles.favoriteButton} onClick={() => toggleFavorite(id)}>
-        {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
-      </button>
       <Link href={`/recipes/${slug}`}>
-        <div className={styles.cardContent}>
-          <h3>{title}</h3>
-          <p>Servings: {servings}</p>
-          <p>Prep Time: {prep_time} minutes</p>
-          {!noCook ? <p>Cook Time: {cook_time} minutes</p> : <p>No cook time</p>}
-          <p>Total Time: {totalTime}</p>
-        </div>
+        <Image src="/image/food.jpg" alt={title} width={300} height={200} />
       </Link>
+
+      <div className={styles.cardContent}>
+        <button
+          className={[styles.favoriteButton, isFavorite ? styles.isFavorite : ''].join(' ')}
+          onClick={() => toggleFavorite(id)}
+        >
+          {isFavorite ? 'Favorite' : 'Add to Favorites'}
+        </button>
+        <h4>{title}</h4>
+        <p>Servings: {servings}</p>
+        <p>Total Time: {totalTime}</p>
+      </div>
     </div>
   );
 };

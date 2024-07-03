@@ -1,0 +1,33 @@
+@import 'src/styles/mixins.scss';
+
+.recipeCard {
+  background-color: white;
+  padding-bottom: 0.5rem;
+  .cardContent {
+    margin: 0.5rem;
+
+    p {
+      @include info-text;
+      margin-top: 0.5rem;
+      color: var(--color-black);
+    }
+    h4 {
+      @include xs-title;
+      margin: 0.5rem 0;
+      color: var(--color-black);
+    }
+  }
+  .favoriteButton {
+    background-color: var(--color-white);
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+    border: 0.2px solid black;
+    border-radius: 0.5rem;
+    &:hover {
+      background-color: var(--color-gray);
+    }
+    &.isFavorite {
+      background-color: var(--color-success);
+    }
+  }
+}
